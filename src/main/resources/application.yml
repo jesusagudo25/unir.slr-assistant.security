@@ -31,7 +31,7 @@ eureka:
 slr-assistant:
   app:
     frontend:
-      url: ${FRONTEND_URL:http://localhost:3030}
+      url: ${FRONTEND_URL:http://localhost:3000}
   email:
     host: smtp.gmail.com
     port: 587
